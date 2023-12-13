@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #494241;
+}
+.medsos ul li{
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: #494241;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #494241;
+	color: #fff;
+}
+.active{
+	background-color: #494241;
+	color: #fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(73, 66, 65, .6);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: #494241;
+}
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px; 
+}	
+.contact{
+	background-color: #B3FAE9;
+}
+footer{
+	padding: 30px 0;
+	background-color: #494241;
+	color: #FEFEFE;
+	text-align: center;
+}
+.service{
+	background-color: #FEFEFE;
+}	
+.menu .box-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	gap: 1,5rem;
+}
+.menu .box-container .box{
+	padding: 3rem;
+	text-align: center;
+	border: var(--border);
+}
+.menu .box-container .box img{
+	height: 18rem;
+}
+.menu .box-container .box .price{
+    color: #494241;
+    font-size: 1.5rem;
+    padding:.1rem 0;
+}
